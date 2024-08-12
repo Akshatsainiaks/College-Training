@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+    --primary-color:pink;
+    --secondary-color:red;
+    --secondary-background-color:azure;
+    --margin-width:20px;
+    --primary-border:2px solid black;
+    }
+    .dark{
+        --primary-color:pink;
+    --secondary-color:red;
+    --secondary-background-color:azure;
+    --margin-width:20px;
+    --primary-border:2px solid black;       
+    }
+    body{
+        text-align: center;
+        background-color:var(--primary-color);
+    }
+    .box{
+        background-color: var(--secondary-background-color);
+        padding: 20px;
+        margin: 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    #heading{
+      color: var(--primary-color);
+    }
+</style>
+<body>
+    <button id="theme">Switch Theme</button>
+    <h1>Touris Places  </h1>
+<div class="box">
+    <h3>Hills</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda culpa nihil natus similique debitis accusamus iusto, aliquam voluptatibus tempore minus?</p>
+
+</div>
+<div class="box">
+    <h3>Waterfalls</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab omnis nihil labore reiciendis a dolores ducimus dolorum totam quas.</p>
+</div>
+<div class="box">
+    <h3>Lakes</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quas consequuntur dolorum saepe voluptatum consectetur ipsam quibusdam, hic architecto voluptatem.</p>
+</div>
+</body>
+</html>

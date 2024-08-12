@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#t{
+    background-color: rgb(96, 96, 182); 
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    margin: 0px 5px;
+}
+#t div{
+    width: 250px;
+}
+#t div input{
+    width: 80%;
+}
+#t1{
+    text-align: right;
+}
+#s{
+    background-color: BLUE;
+}
+#c{
+    background-color: green;
+    width=110px;
+    height: 35px;
+}
+
+#op{
+    width: 106vh;
+    background-color: rgb(239, 232, 232);
+    margin-left: 743px;
+}
+a{
+    text-decoration: none;
+}
+ hr{
+    width: 1486px;
+ }
+
+#b{
+    background-color:white;
+    width: 250vh;
+    height: 30vh;
+}

@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#a{
+    background-color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    
+    
+    
+}
+
+#c{
+    width: 2vw;
+    height: 2vh ;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b{
+    height: 80vh;
+    width: 100vw;
+    background-image: url("./bgimg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

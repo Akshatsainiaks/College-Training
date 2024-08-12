@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       /* translate,rotate,scale,skew*/
+        #container{
+            width: 400px;
+            height: 400px;
+            background-color: cadetblue;
+           
+            /*transform: translate(200px,200px);*/  
+         /*   transform: scaleY(3);*/
+        /* transform: rotateY(30deg);*/
+       /* transform: skew(30deg);*/
+       transition: 0.5s ease-in-out;
+       border: 2px solid yellow;
+       border-radius: 50%;
+            animation: spinner 4s linear infinite;
+
+
+        }
+       #container:hover #box{
+            transform: translate(300px,300px);
+
+
+        }
+        body{
+            background-color:red;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        #container:hover{
+            background-color: chocolate;
+            box-shadow: 1px 1px 5px 1px gray;
+        /*    border: 2px solid black;
+            border-radius: 50%;*/
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50%;
+        
+
+        }
+       /* @keyframes spinner {
+            0%,100%{
+                transform: translate(0,0);
+            }
+            25%{
+                transform: translate(300px,0);
+            } 
+            50%{
+                transform: translate(0,300px);
+            } 
+            75%{
+                transform: translate(0,300px);
+            }
+        }*/
+
+        @keyframes spinner {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container"> 
+        <div id="box">
+
+        </div>
+    </div>
+</body>
+</html>
